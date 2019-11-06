@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|PT+Sans|Questrial|Titillium+Web&display=swap');
+
+:root {
+  --primary1: #FF0000;
+  --primary2: #520A06;
+  --secondary11: #3A6E73;
+  --secondary12: #13464B;
+  --secondary21: #90AF58;
+  --secondary22: #6F8E36;
+  --textLight: white;
+  --textDark: black;
+  --paragraphText: 'Questrial', sans-serif;
+  --headingText: 'PT Sans', sans-serif;
+  --navigationText: 'Titillium Web', sans-serif;
+}
+
+
+
+
+body *{
+font-family: var(--paragraphText)
+}
+h1,h2,h3,h4,h5,h6 {
+font-family: var(--headingText)
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FF0000;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: lightblue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #0000FF;
+}
+
+body{
+  background-color: #ADD8E6
+}
